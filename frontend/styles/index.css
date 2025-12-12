@@ -1,0 +1,43 @@
+/* src/styles/index.css */
+
+/* Global body styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 50, 250, 0.5);
+  border-radius: 4px;
+}
+
+/* Modal overlay (for Add Event) */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 50;
+}
+
+/* Card hover effects */
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Gradient text for headers */
+.gradient-text {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
