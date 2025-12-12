@@ -1,1 +1,1 @@
-Dabartis 
+Dabartis jo
