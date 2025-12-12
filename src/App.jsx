@@ -182,10 +182,10 @@ export default function App() {
       </header>
 
       {/* Search and Filter */}
-      <div className="max-w-xl mx-auto px-6 py-8">
-        <div className="bg-white rounded-2xl shadow-xl p-6 mb-10 border border-gray-200  grid-cols-1 md:grid-cols-[1fr_auto]  items-center max-w-4xl mx-auto">
+      <div className="max-w-7xl mx-auto px-6 py-8">
+        <div className="bg-white rounded-2xl shadow-xl p-6 mb-10 border border-gray-200 grid grid-cols-1 md:grid-cols-[1fr_auto] gap-6 items-center max-w-4xl mx-auto">
           <div className="search-container relative max-w-md w-full mx-auto md:mx-0">
-            <Search className="absolute transform  text-indigo-400" size={22} />
+            <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-indigo-400" size={22} />
             <input
               type="text"
               placeholder="Ieškoti renginių pagal pavadinimą, vietą..."
